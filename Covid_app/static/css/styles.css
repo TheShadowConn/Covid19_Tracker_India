@@ -1,0 +1,218 @@
+/*Body elements*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+hr{    
+    border: 6px red dotted;
+    border-bottom: none;
+    width: 9%;
+}
+
+/*Title*/
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 20px;    
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/*Title-images and content*/
+
+.doctor{
+    width: 500px;
+    position: relative;
+    top: -40px;    
+}
+
+.logo{
+    width: 170px;    
+}
+
+
+/*Background-color*/
+
+#title{
+    background-color: white;
+}
+
+.corona-text{
+    color:#DD1E1E ;
+    
+}
+
+.protect-text{
+    color: #4779EC;
+}
+
+
+/*Navigation Bar*/
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
+    padding: 0px 30px;
+    font-size: 1rem;
+}
+
+.navbar{
+    padding-bottom: 2.5rem;
+}
+
+
+.container-fluid{
+  padding: 2% 13%;
+  
+}
+
+
+/*Tracker*/
+.tracker-count{
+    padding: 7% 15%;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.tracker-icon-recover{
+    color: #EA7676;
+    margin: 1rem;
+}
+
+.tracker-icon-recover:hover{
+    color: red;
+}
+
+.tracker-icon-infect{
+    color: lightgreen;
+    margin: 1rem;
+}
+
+.tracker-icon-infect:hover{
+    color: greenyellow;
+}
+
+.tracker-icon-dead{
+    color: grey;
+    margin: 1rem;
+}
+
+.tracker-icon-dead:hover{
+    color: black;
+}
+
+
+
+
+/* news*/
+#news{
+    padding: 7% 15%;
+    text-align: center;
+    margin: 20px 20px 50px;
+    background-color: ;
+}
+
+.news1-image{
+    border-radius: 100;
+    width: 100px;
+    margin: 30px;
+    
+}
+
+.news2-image{
+    margin:25px ;
+    width: 200px;
+}
+
+.news3-image{
+    margin: 30px;
+    width: 200px;
+}
+
+.carousel-item{
+    padding: 7% 25%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+#contact-us{
+    margin: 20px 20px 50px;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#contact-id{
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+#last-text{
+    padding-bottom: 20px;
+}
+
+
+#cta{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#homee{
+    color:#EA7676;
+
+}
+
+#footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media (max-width:992px){
+
+    #title{
+        text-align: center;
+    }
+    .doctor{
+        width: 500px;
+        position: relative;
+        top: 10px;  
+          
+    }
+
+}
+
+
+
+<img class="logo" src="images/covidlogo.png">
+<button class="btn btn-dark btn-lg" type="button">Download</button>
+
+<!-- Press -->
+
+<section id="press">
+  <img src="images/techcrunch.png" alt="tc-logo">
+  <img src="images/tnw.png" alt="tnw-logo">
+  <img src="images/bizinsider.png" alt="biz-insider-logo">
+  <img src="images/mashable.png" alt="mashable-logo">
+
+</section>
+
+
